@@ -1,0 +1,146 @@
+
+/*------------------Reusables----------------------*/
+
+:root {
+    --green-color: #4c824b;
+    --light-green-color: #6ac487;
+    --yellow-color: #ffd435;
+    --blue-color: #5575c2;
+    --red-color: #d14e5b;
+    --purple-color: #a653ba;
+    --salmon-color: #f38a59;
+}
+
+/*--------------------General-----------------------*/
+
+header {
+    display: flex;
+    flex-basis: 400px;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 2rem;
+}
+
+/*---------------------Reusable Continent Colors------------------*/
+
+.africa {
+    color: var(--blue-color);
+}
+
+.antarctica {
+    color: var(--salmon-color);
+}
+
+.asia {
+    color: var(--red-color);
+}
+
+.europe {
+    color: var(--yellow-color);
+}
+
+.north_america {
+    color: var(--green-color);
+}
+
+.south_america {
+    color: var(--light-green-color);
+}
+
+.oceania {
+    color: var(--purple-color);
+}
+
+/*-------------------Buttons and inputs--------------------*/
+
+button {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+
+#country_button {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 35px;
+}
+
+#search_button {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: none;
+}
+
+#search_input {
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 1rem;
+}
+
+#search_form {
+    display: flex;
+}
+
+/*-------------------------Cards------------------------*/
+
+.country_card_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.country_card {
+    list-style-type: none;
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.country_card img {
+    width: 50px;
+}
+
+.country_card_flag_and_name {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.search_result_card {
+    list-style-type: none;
+    width: 600px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+#error_card {
+    text-align: center;
+}
+
+.search_result_card img {
+    width: 100px;
+}
+
+.search_result_card p {
+    font-size: 1.2rem;
+}
